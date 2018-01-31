@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  apicore2test:
+    image: apicore2test
+    build:
+      context: .
+      dockerfile: apiCore2Test/Dockerfile
